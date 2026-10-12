@@ -1,3 +1,6 @@
+div .dialog{
+display: none;
+}
 
 * {
     box-sizing: border-box;
@@ -139,7 +142,8 @@ body {
 }
 
 .nav-link.active:hover {
-    color: #071426;    
+    color: #071426; 
+    background: #cb4900;   
     transform: translateY(-2px);
     border-color: rgba(77, 163, 255, 0.18);
     box-shadow: 0 0 15px rgba(246, 196, 83, 0.35);
