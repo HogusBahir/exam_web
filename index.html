@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Midterm</title>
+    <title>Planets</title>
 
     <link rel="stylesheet" href="./css/jquery-ui.min.css">
     <link rel="stylesheet" href="./css/jquery-ui.structure.min.css">
     <link rel="stylesheet" href="./css/jquery-ui.theme.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="./js/planets.js">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
 </head>
+<!-- ADD REFERENCE TO JS FILE -->
 
 <body>
 
@@ -20,8 +22,11 @@
         <header class="site-header">
             <div class="site-title"><p>Planets in the Solar System</p></div>
             <nav class="site-navigation">
-                <a href="#" class="nav-link active">Explore</a>
-                <a href="#" class="nav-link">About</a>
+                <uo>
+                    <!-- MAKE EXISITING ANCHOR LINKS IN THE NAV BAR ELEMENTS???? -->
+                    <ul><a href= "https://science.nasa.gov/solar-system/planets/" target="_blank" class="nav-link active">Explore</a></ul>
+                    <ul><a href="#" class="nav-link">About</a></ul>
+                </uo>
             </nav>
         </header>
     </div>
@@ -64,11 +69,21 @@
             </section>        
             <section id="footer-section-02" class="footer-section">
                 <h2>Contact Us</h2>
+                                <!-- ADD THE FORM -->
+                <form action ="#" method="post"> 
+                    <input>
+                        <label for="email" name = "email">Email Address</label>
+                        <textarea>
+                        </textarea>
+                    </input>
+                    <button class ="footer-button">Submit</button>
+                </form>
                 <p>Subscribe for updates about planets, space exploration, and astronomy.</p>
             </section>
             <section id="footer-section-03" class="footer-section footer-email">
                 <h2>Explore With Us</h2>
                 <p>Have a question, suggestion, or just want to talk about space?</p>
+                <a href ="mailto:jose.deleon11@utrgv.edu" class = "email-link">Contact Us by Email</a>
                 <br>
                 <p class="footer-note">Discover the planets, learn about our solar system, and keep exploring the universe.</p>
             </section>
